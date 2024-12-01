@@ -13,9 +13,7 @@ Here, you will find a step-by-step tutorial on how to setup a local environment 
 
 `kafka-connect-jdbc` can be downloaded from [confluent](https://www.confluent.io/hub/confluentinc/kafka-connect-jdbc) website. or be running bellow commands:
 ```
-curl -O  https://d2p6pa21dvn84.cloudfront.net/api/plugins/confluentinc/kafka-connect-jdbc/versions/10.8.0/confluentinc-kafka-connect-jdbc-10.8.0.zip
-unzip confluentinc-kafka-connect-jdbc-10.8.0.zip
-rm confluentinc-kafka-connect-jdbc-10.8.0.zip
+sh ./setup.sh
 ```
 ### Docker compose
 Next to `confluentinc-kafka-connect-jdbc-10.8.0` folder. then run `docker-compose up`
